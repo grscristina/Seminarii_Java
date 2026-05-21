@@ -1,0 +1,58 @@
+Managementul Memoriei si Garbage Collector
+
+C++ vs. Java: In C++, la o scala mare, memoria este foarte greu de gestionat manual.
+Pot aparea probleme precum ghost pointers, iar debugging-ul este mult mai dificil
+
+Garbage Collector: managementul memoriei este automat
+ Garbage Collector-ul ruleaza in fundal si elibereaza automat memoria ocupata de
+ obiectele care nu mai sunt folosite
+
+Securitate si Independenta de Platforma
+
+Securitate Java ofera o securitate mai mare comparativ cu limbaje precum PHP.
+Are mecanisme care protejeaza aplicatia de atacuri de tip SQL Injection.
+
+Independenta de platforma (Write Once, Run Anywhere)
+
+Compilare: JDK-ul (Java Development Kit) compileaza codul in Bytecode (fisiere .class).
+
+Rulare: Dupa ce am creat acest Bytecode,
+el poate fi rulat pe orice alt dispozitiv din lume, indiferent de sistemul de operare,
+prin intermediul JVM (Java Virtual Machine Masina Virtuala Java) instalata pe
+acel sistem.
+
+OOP
+
+Mostenire (Inheritance)
+
+Incapsulare (Encapsulation)
+Polimorfism (Polymorphism)
+Abstractizare (Abstraction)
+
+Structura Claselor in Java
+
+Obiectul: Reprezinta instanta unei clase cu ajutorul careia s
+tructuram informatia in memorie
+
+Logica de Business: Modelarea proceselor si functionarii aplicatiei.
+
+Clase de Servicii Gestionarea operatiunilor si a interogarilor (queries)
+ din bazele de date
+
+Structura: Clasele au atribute  si metode
+
+Conventie: Numele claselor se scriu intotdeauna cu litera MARE (Student, Main, ProductService).
+
+Constructori si Incapsulare
+
+Constructorul Default (Implicit): Daca nu scriem niciun constructor,
+ Java creeaza automat un constructor default.
+
+Regula: Daca am creat noi deja un constructor (cu parametri),
+Java nu mai creeaza constructorul default
+
+Incapsularea: Campurile se declara private (ex: private String name)
+
+Acces: Getterii si setterii fac accesul la aceste atribute din afara clasei
+
+IntelliJ genereaza automat constructorul, getterii si setterii, fara sa-i mai scriem noi de mana.
